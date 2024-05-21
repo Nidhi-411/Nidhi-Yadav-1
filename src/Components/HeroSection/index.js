@@ -23,7 +23,7 @@ import { MdWavingHand } from "react-icons/md";
 
 const Hero = () => {
   return (
-    <div id="about">
+    <div id="hero">
       <HeroContainer>
       
         <HeroInnerContainer>

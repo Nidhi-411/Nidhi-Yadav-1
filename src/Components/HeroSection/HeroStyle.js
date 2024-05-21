@@ -98,8 +98,11 @@ export const Img = styled.img`
   height: 100%;
   max-width: 400px;
   max-height: 400px;
-  border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  //border-radius: 50%;
+  //border: 2px solid ${({ theme }) => theme.primary};
+  border: 0.1px solid #854CE6;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border-radius: 16px;
 
   @media (max-width: 768px) {
     max-width: 400px;

@@ -1,28 +1,7 @@
-// import styled from 'styled-components';
-// import _default from '../../themes/default';
-
-
-// export const SocialMediaIcons = styled.div`
-//   display: flex;
-//   margin-top: 1rem;
-// `;
-
-// export const SocialMediaIcon = styled.a`
-//   display: inline-block;
-//   margin: 0 1rem;
-//   font-size: 1.5rem;
-//   color: ${({ theme }) => theme.text_primary};
-//   transition: color 0.2s ease-in-out;
-//   &:hover {
-//     color: ${({ theme }) => theme.primary};
-//   }
-// `;
-// AboutStyles.js
-// AboutStyles.js
-// AboutStyles.js
+// ProjectStyles.js
 import styled from 'styled-components';
 
-export const AboutContainer = styled.div`
+export const ProjectsContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;
   flex-direction: column;
@@ -33,62 +12,78 @@ export const AboutContainer = styled.div`
   margin-top: 40px;
 `;
 
-export const Heading = styled.h2`
-  font-size: 2.5 rem;
+export const ProjectsHeading = styled.h2`
+  font-size: 2.5rem;
   color: ${({ theme }) => theme.text_primary};
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 `;
 
-export const Description = styled.p`
-  font-size: 1rem;
+export const ProjectsSubHeading = styled.p`
+  font-size: 1.2rem;
   color: ${({ theme }) => theme.text_primary};
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 `;
 
-export const Links = styled.div`
+export const ProjectCardsWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
   justify-content: center;
+  gap: 20px;
 `;
 
-export const LinkCard = styled.a`
+export const ProjectCard = styled.div`
   background: ${({ theme }) => theme.card};
-  //border-radius: 8px;
-  text-decoration: none;
-  color: inherit;
-  width: 300px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
- // border: 1px solid ${({ theme }) => theme.primary};
   border: 0.1px solid #854CE6;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
+//   padding: 18px 36px;
+//  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  width: 400px;
+  margin : 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ // border: 2px solid ${({ theme }) => theme.primary};
+  transition: transform 0.2s;
 
   &:hover {
     transform: scale(1.05);
   }
 `;
 
-export const LinkCardContent = styled.div`
+export const ProjectImage = styled.img`
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+`;
+
+export const ProjectCardContent = styled.div`
   padding: 20px;
   text-align: center;
 `;
 
-export const LinkCardTitle = styled.h3`
+export const ProjectCardTitle = styled.h3`
   font-size: 1.5rem;
-  color: ${({ theme }) => theme.text_secondary};
+  color: ${({ theme }) => theme.text_primary};
   margin-bottom: 0.5rem;
 `;
 
-export const LinkCardDescription = styled.p`
+export const ProjectCardDescription = styled.p`
   font-size: 1rem;
   color: ${({ theme }) => theme.text_secondary};
   margin-bottom: 1rem;
 `;
 
-export const LinkButton = styled.div`
+export const ProjectLinks = styled.div`
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+`;
+
+export const ProjectLink = styled.a`
   display: inline-flex;
   align-items: center;
   background: ${({ theme }) => theme.primary};
