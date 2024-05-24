@@ -9,7 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-//import Footer from './Components/Footer'
+import Footer from './Components/Footer'
 
 
 const Body = styled.div`
@@ -38,7 +38,7 @@ function App() {
          <Projects/>
          </Wrapper>
          <Contact/>
-         {/* <Footer/> */}
+         <Footer/>
       </Body>
       </Router>
     </ThemeProvider>
