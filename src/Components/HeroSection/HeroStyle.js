@@ -169,17 +169,25 @@ export const SubTitle = styled.div`
   }
 `;
 
+export const Buttons = styled.div`
+
+  display : flex;
+  flex : wrap;
+`
+
 export const ResumeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
     width: 95%;
-    max-width: 300px;
+    max-width: 170px;
     text-align: center;
-    padding: 16px 0;
+    padding: 5px 0;
+    margin : 10px;
+   
     color:${({ theme }) => theme.white};
-    border-radius: 20px;
+   // border-radius: 20px;
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;

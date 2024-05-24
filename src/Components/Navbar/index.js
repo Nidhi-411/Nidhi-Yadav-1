@@ -24,8 +24,8 @@ const Navbar = () => {
 
   return (
     <Nav>
-      <NavbarContainer>
-        <NavLogo to='/'>
+      <NavbarContainer href='#hero'>
+        <NavLogo >
         <Span >
         <span className="blue">&lt;</span>
         <span className="white">Nidhi</span>
@@ -42,6 +42,7 @@ const Navbar = () => {
         </MobileIcon>
 
         <NavItems>
+          <NavLink href="#hero">Home</NavLink>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           {/* <NavLink href="#experience">Experience</NavLink> */}

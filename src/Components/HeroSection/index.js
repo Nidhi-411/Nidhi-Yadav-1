@@ -10,6 +10,7 @@ import {
   HeroInnerContainer,
   TextLoop,
   Title,
+  Buttons,
   //Span,
   SubTitle,
   SocialMediaIcons,
@@ -36,7 +37,10 @@ const Hero = () => {
 
             <SubTitle>{Bio.description}</SubTitle>
             {/* <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton> */}
+            <Buttons>
             <ResumeButton> Check Resume </ResumeButton>
+            <ResumeButton href="#contact">Contact</ResumeButton>
+            </Buttons>
 
           </HeroLeftContainer>
           <HeroRightContainer id="Right">
