@@ -1,9 +1,8 @@
 import React from "react";
-import styled from "styled-components";
 
 import {
   HeroContainer,
-  HeroBg,
+  //HeroBg,
   HeroLeftContainer,
   Img,
   HeroRightContainer,
@@ -13,14 +12,13 @@ import {
   Buttons,
   //Span,
   SubTitle,
-  SocialMediaIcons,
-  SocialMediaIcon,
+ // SocialMediaIcons,
+ // SocialMediaIcon,
   ResumeButton,
 } from "./HeroStyle";
 import HeroImg from '../../images/NidhiYadavPhoto.jpg'
 //import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
-import { MdWavingHand } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -38,7 +36,7 @@ const Hero = () => {
             <SubTitle>{Bio.description}</SubTitle>
             {/* <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton> */}
             <Buttons>
-            <ResumeButton> Check Resume </ResumeButton>
+            {/* <ResumeButton> Check Resume </ResumeButton> */}
             <ResumeButton href="#contact">Contact</ResumeButton>
             </Buttons>
 

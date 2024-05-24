@@ -29,7 +29,7 @@ const About = () => {
 
        </Description>
       <Links>
-        <LinkCard href="www.linkedin.com/in/nidhi-yadav-b69386247" target="_blank">
+        <LinkCard href="https://www.linkedin.com/in/nidhi-yadav-b69386247/" target="_blank">
           <LinkCardContent>
             <LinkCardTitle>LinkedIn</LinkCardTitle>
             <LinkCardDescription>Connect with me on LinkedIn for professional updates and networking.</LinkCardDescription>
