@@ -3,7 +3,9 @@
 
 
 
+#### for styling 
 
+i have used Styled Component . 
 
 
 #### for contact , onSubmition 
