@@ -97,7 +97,7 @@ export const Img = styled.img`
   width: 100%;
   height: 100%;
   max-width: 400px;
-  max-height: 400px;
+  max-height: 410px;
   //border-radius: 50%;
   //border: 2px solid ${({ theme }) => theme.primary};
   border: 0.1px solid #854CE6;
@@ -106,12 +106,12 @@ export const Img = styled.img`
 
   @media (max-width: 768px) {
     max-width: 400px;
-    max-height: 400px;
+    max-height: 410px;
   }
 
   @media (max-width: 640px) {
     max-width: 280px;
-    max-height: 280px;
+     max-height: 290px;
   }
 `;
 
@@ -183,8 +183,9 @@ export const ResumeButton = styled.a`
     width: 95%;
     max-width: 170px;
     text-align: center;
-    padding: 5px 0;
+    padding: 5px 3px;
     margin : 10px;
+    border-radius:10px;
    
     color:${({ theme }) => theme.white};
    // border-radius: 20px;
@@ -207,7 +208,7 @@ export const ResumeButton = styled.a`
     
     
     @media (max-width: 640px) {
-        padding: 12px 0;
+        padding: 12px ;
         font-size: 18px;
     } 
 

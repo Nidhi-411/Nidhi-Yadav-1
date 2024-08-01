@@ -16,13 +16,13 @@ import {
  // SocialMediaIcon,
   ResumeButton,
 } from "./HeroStyle";
-import HeroImg from '../../images/NidhiYadavPhoto.jpg'
+import HeroImg from '../../images/NidhiYadavPhoto.png'
 //import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
 const Hero = () => {
   return (
-    <div id="hero">
+    < div id="hero">
       <HeroContainer>
       
         <HeroInnerContainer>
