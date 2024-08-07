@@ -245,14 +245,30 @@ export const Bio = {
       description: 'vidio streaming platform , made with React js , Redux js , Tailwind Css . ',
       image: images['vidioValtProject1.png'], // Add image link here
       codeLink: 'https://github.com/Nidhi-411/vidio-vault',
-      demoLink: 'https://github.com/Nidhi-411/vidio-vault',
+      demoLink: 'https://vidio-vault.vercel.app/',
     },
+    
     {
       title: 'CraveCart',
       description: 'food web app that provide features of seeing the restaurants and thire menu , add and remove item from cart , authentication provided with firebase.',
       image: images['CraveCartProject.png'], // Add image link here
       codeLink: 'https://github.com/Nidhi-411/CraveCart',
       demoLink: 'https://www.linkedin.com/feed/update/urn:li:activity:7196120338538151936/',
+    },
+    {
+      title: 'EventPro',
+      description: 'Made with Html , Css , JavaSritp . provides the features of event organization',
+      image: images['EventProImage.png'], // Add image link here
+      codeLink: 'https://github.com/yourprofile/project5',
+      demoLink: 'https://event-pro-vpnf.vercel.app/',
+    },
+    
+    { id : '4' , 
+      title: 'WatchList',
+      description: 'a simple movie watchlist app that allows multiple users to search for movies, view details about them, and add/remove them from their personal watchlists ',
+      image: images['WatchListPhoto.png'], // Add image link here
+      codeLink: 'https://github.com/Nidhi-411/watchlist',
+      demoLink: 'https://watchlist-git-main-nidhi-yadavs-projects.vercel.app/',
     },
     {
       title: 'Snake-s-world',
@@ -270,13 +286,9 @@ export const Bio = {
       codeLink: 'https://github.com/yourprofile/project4',
       demoLink: 'https://nidhi-411.github.io/js-Projects/',
     },
-    {
-      title: 'EventPro',
-      description: 'Made with Html , Css , JavaSritp . provides the features of event organization',
-      image: images['EventProImage.png'], // Add image link here
-      codeLink: 'https://github.com/yourprofile/project5',
-      demoLink: 'https://yourprofile.github.io/project5',
-    },
+
+   
+    
   ];
   
   
